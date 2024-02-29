@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 // switch statement
-// a single expression with multiple possible values, and you want to execute different code blocks based on the specific value of that expression.
+/*  A zárójelben megadott érték alapján válaztja ki a megfelelő értéket,
+    amennyiben nem ad vissza semmit, továbbmegy a következő opcióra, addig amíg nem talál rá visszatérési értéket.
+    Ez lehet a következő case is.*/
 char* switchStatement(int day_of_week) {
     switch (day_of_week) {
         case 0:
@@ -24,7 +26,7 @@ char* switchStatement(int day_of_week) {
 }
 
 // if statement
-// multiple conditions that may not be directly related to the value of a single expression. It's versatile and can handle complex branching logic.
+// Ellenőrzi hogy a kapott érték melyik "if"-re igaz, ha egyikre sem, akkor lép be az else ágba.
 char* ifStatement(int day_of_week) {
     if (day_of_week == 0) {
         return "Sunday";

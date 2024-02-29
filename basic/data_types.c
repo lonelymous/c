@@ -16,7 +16,10 @@ int main() {
     printf("String: %s\n", stringVar);
     printf("Integer: %d\n", integerVar);
     printf("Float: %f\n", floatVar);
+    printf("Rounded Float: %.1f\n", floatVar);
     printf("Double: %lf\n", doubleVar);
+    printf("Rounded Double: %.2lf\n", doubleVar);
+    
 
     return 0;
 }

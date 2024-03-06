@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+#include <time.h> // A rendszer óráját és dátumát kéri le és az azokhoz tartozó eszközöket.
 
 int main() {
     // Get the current time

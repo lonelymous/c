@@ -25,19 +25,6 @@ A C-ben a változóknak különböző típusai vannak, amelyek meghatározzák a
 
 A `scanf` és `printf` függvényeket használjuk a felhasználótól való bemenet beolvasására és kimenet kijelzésére.
 
-### Bemenet (scanf)
-
-
-
-
-
-
-
-
-
-
-
-
 ## Iterációk | Ciklusok
 
 Az iteráció a programozásban olyan folyamat, amely lehetővé teszi, hogy egy adott kódblokk ismételten végrehajtódjon, amíg egy bizonyos feltétel teljesül. C-ben három alapvető iterációs struktúra áll rendelkezésre:
@@ -78,7 +65,7 @@ do {
 ```
 - **feltétel:** Az ismétlés feltétele. Amíg ez a feltétel igaz, a ciklus folytatódik.
 
-## Iterációk | Elágazások
+## Elágazások
 
 ### if - else if - else
 

@@ -11,7 +11,7 @@ A C-ben a változóknak különböző típusai vannak, amelyek meghatározzák a
 
 ### Karaktereket tárol,
 - **char:**   | 1 bájt |
-##x Egész számokat tárol:
+### Egész számokat tárol:
 - **short:**  | 2 bájt |
 - **int:**    | 4 bájt |
 - **long:**   | 8 bájt |
@@ -32,6 +32,8 @@ A `scanf` és `printf` függvényeket használjuk a felhasználótól való beme
 ## Iterációk | Ciklusok
 
 Az iteráció a programozásban olyan folyamat, amely lehetővé teszi, hogy egy adott kódblokk ismételten végrehajtódjon, amíg egy bizonyos feltétel teljesül. C-ben három alapvető iterációs struktúra áll rendelkezésre:
+
+[Példa](./basic/iterations.c)
 
 ### for
 
@@ -70,6 +72,8 @@ do {
 - **feltétel:** Az ismétlés feltétele. Amíg ez a feltétel igaz, a ciklus folytatódik.
 
 ## Elágazások
+
+[Példa](./basic/statements.c)
 
 ### if - else if - else
 

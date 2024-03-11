@@ -29,4 +29,4 @@ Fájlkezelés: A C nyelv beépített eszközei a fájlok létrehozásához, olva
 
 ## Absztrakt adat típusok
 
-[Példa](./recursion/)
+[Példa](./abstract_data_types/)
